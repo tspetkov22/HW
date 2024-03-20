@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+</head>
+
+<body>
+    <h2>Регистрация</h2>
+    <!-- <form action="./Slot_Machine.html" method="post"> -->
+    <form action="#">
+        <fieldset>
+            <legend>Лични данни</legend>
+            <div>
+                <label for="fname">Име:</label>
+                <input type="text" placeholder="малко име, на латиница" name="userName" id="fname" autofocus autocomplete="off">
+            </div>
+            <div>
+                <label for="lname">Име:</label>
+                <input type="text" placeholder="фамилия, на латиница" name="userSurName" id="lname" autocomplete="off">
+            </div>
+            <div>Пол:
+                <!-- <label for="gender">Пол:</label> -->
+                <label for="male">Мъж</label>
+                <input type="radio" name="gender" value="m" id ="male">
+                <label for="female">Жена</label>
+                <input type="radio" name="gender" value="f" id="female">
+            </div>
+
+        </fieldset>
+            <label for="comment">Коментар:</label>
+            <div><textarea name="comment" id="comment" cols="20" rows="5" placeholder="Напишете ни нещо"></textarea></div>
+        <button type="submit">Изпрати</button>
+        <!-- <button>Изпрати</button> -->
+    </form>
+</body>
+
+</html>
