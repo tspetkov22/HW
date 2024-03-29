@@ -1,0 +1,54 @@
+#page {
+    border: 15px outset;
+    border-color: #B0893B;
+    background-image: url(/Images/crow-1002849_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.quote {
+    letter-spacing: 2px;
+    font-family: serif;
+    font-style: italic;
+}
+
+.under {
+    border-bottom: 2px solid orange;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #F4C76C
+}
+
+#poem {
+    text-indent: 2em;
+    font-size: 20px;
+    color: #E7FDFF;
+    width: 31em;
+    font-family: sans-serif;
+}
+
+#aboutAuthor {
+    border-top: 5px solid #B0893B;
+    color: #daa02d;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#poem>h1 {
+    text-align: center;
+}
+
+#poem>h3 {
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
