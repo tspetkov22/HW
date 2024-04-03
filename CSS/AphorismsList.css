@@ -1,0 +1,27 @@
+body{
+    width: 800px;
+    border: 5px solid gray;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+
+h1 {
+
+    text-align: center;
+    color: #8f8a8a;
+}
+
+.odd{
+    margin: 0;
+    background-color: #41484E;
+    color: #DDD;
+    padding: 20px;
+    
+}
+
+.even{
+    margin: 0;
+    background-color: #5E6F7D;
+    color: #EEE;
+    padding: 20px;
+}
