@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+.article {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.article>div {
+    margin: 0.5em;
+    padding: 1em;
+    text-align: justify;
+}
+
+.article img {
+    height: 5em;
+}
+
+.left img {
+    float: left;
+    margin-right: 0.5em;
+}
+
+.right img {
+    float: right;
+    margin-left: 0.5em;
+}

@@ -1,0 +1,25 @@
+h1 {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.todoList {
+    border: 5px outset grey;
+    list-style: none;
+    padding: 1em;
+    margin: 0;
+}
+
+
+.emoji-smile::before {
+    content: "\1F603";
+}
+
+.emoji-sad::before {
+    content: "\1F625";
+}
+
+.emoji-loudly-crying::before {
+    content: "\1F62D";
+}
